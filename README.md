@@ -72,6 +72,20 @@ The block diagram shows the overall working of the occupancy detection system. T
 
 ---
 
+## Hardware Prototype
+
+The following images show the hardware implementation of the proposed Real-Time Occupancy Detection System. The prototype consists of an Arduino Uno, two IR sensors for entry and exit detection, an 8-channel relay module, a breadboard for power distribution, and jumper wires for interconnections. The Arduino processes the sensor inputs in real time and controls the relay module according to the occupancy count.
+
+### Hardware Prototype – Front View
+
+![Hardware Prototype - Front View](images/hardware_prototype_1.jpeg)
+
+### Hardware Prototype – Angled View
+
+![Hardware Prototype - Angled View](images/hardware_prototype_2.jpeg)
+
+---
+
 ## Circuit Diagram
 
 The circuit diagram below shows the hardware connections between the Arduino Uno, IR sensors, relay module, and supporting components.
