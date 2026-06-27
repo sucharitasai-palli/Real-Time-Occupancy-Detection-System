@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The **Real-Time Occupancy Detection System** is an Arduino Uno-based embedded system that monitors the number of people entering and exiting a room using two Infrared (IR) sensors. By detecting the sequence of entry and exit, the system maintains the real-time occupancy count. Based on the occupancy status, the Arduino controls a relay module to automate electrical appliances, helping reduce unnecessary energy consumption. This project demonstrates a simple, cost-effective, and scalable occupancy monitoring solution suitable for smart homes, offices, classrooms, and other indoor environments.
+The **Real-Time Occupancy Detection System** is an Arduino Uno-based embedded system designed to monitor the number of people entering and exiting a room using two Infrared (IR) sensors. The Arduino Uno maintains a real-time occupancy count based on the signals received from the sensors and displays the count on the Serial Monitor. An 8-channel relay module is controlled according to the occupancy count, demonstrating how electrical loads can be automated based on room occupancy. This project provides a simple, reliable, and cost-effective solution for occupancy monitoring and automation in homes, offices, classrooms, and other indoor environments.
 
 ---
 
@@ -14,10 +14,10 @@ In homes, offices, classrooms, and other indoor environments, electrical applian
 
 ## Objectives
 
-- Count the number of people entering and exiting a room using two IR sensors.
-- Maintain the real-time occupancy count.
-- Automatically control electrical appliances using a relay module based on occupancy.
-- Display the occupancy count through the Arduino.
+- Detect people entering and exiting a room using two IR sensors.
+- Maintain a real-time occupancy count.
+- Control an 8-channel relay module based on the occupancy count.
+- Display occupancy information on the Serial Monitor.
 - Develop a simple, reliable, and low-cost occupancy detection system.
 
 ---
@@ -43,15 +43,30 @@ In homes, offices, classrooms, and other indoor environments, electrical applian
 
 ## Working Principle
 
-The system uses two Infrared (IR) sensors positioned at the entrance of a room to detect the direction of movement. When a person enters, the first sensor is triggered before the second sensor, causing the Arduino Uno to increment the occupancy count. When a person exits, the second sensor is triggered before the first sensor, causing the occupancy count to decrement.
+The system uses two Infrared (IR) sensors placed at the entry and exit points of a room. The IN sensor detects people entering the room, while the OUT sensor detects people leaving.
 
-The Arduino continuously monitors the occupancy count and controls the relay module accordingly. If the occupancy count is greater than zero, the relay remains activated to indicate that the room is occupied. When the occupancy count becomes zero, the relay is deactivated, indicating that the room is vacant. This process is repeated continuously to provide real-time occupancy monitoring.
+Whenever the IN sensor is triggered, the Arduino Uno increments the occupancy count. When the OUT sensor is triggered, the occupancy count is decremented. The updated occupancy count is displayed on the Serial Monitor.
+
+Based on the occupancy count, the Arduino controls an 8-channel relay module. As the occupancy count increases, additional relays are activated. When the occupancy count decreases, the corresponding relays are turned off. This process continuously monitors room occupancy and demonstrates occupancy-based control of electrical loads.
+
+---
+
+## System Operation
+
+| Occupancy Count | Relay Status |
+|-----------------|--------------|
+| 0 | All relays OFF |
+| 1 | Relay 1 ON |
+| 2 | Relay 1–2 ON |
+| 3 | Relay 1–3 ON |
+| ... | ... |
+| 8 | All relays ON |
 
 ---
 
 ## Block Diagram
 
-The block diagram below illustrates the overall architecture of the proposed occupancy detection system.
+The block diagram shows the overall working of the occupancy detection system. Two IR sensors detect entry and exit events and send signals to the Arduino Uno. The Arduino updates the occupancy count, displays it on the Serial Monitor, and controls an 8-channel relay module. The relay module can be used to operate electrical loads based on the current occupancy count.
 
 ![Block Diagram](images/block_diagram.png)
 
