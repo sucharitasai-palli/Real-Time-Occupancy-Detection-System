@@ -127,7 +127,7 @@ A simple PCB layout was designed in EasyEDA to represent the hardware connection
 A demonstration video showing the complete working of the Real-Time Occupancy Detection System is available below.
 
 **Demo Video:**
-- [Watch the Project Demo](https://github.com/your-username/your-repository-name/blob/main/demo_video.mp4)
+- [Project Demo](https://github.com/your-username/your-repository-name/blob/main/demo_video.mp4)
 
 **Demonstration Highlights:**
 - Entry detection using the IR sensor
