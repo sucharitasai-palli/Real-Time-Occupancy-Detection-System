@@ -139,6 +139,15 @@ A demonstration video showing the complete working of the Real-Time Occupancy De
 
 ---
 
+## Project Report
+
+The complete project report contains the problem statement, objectives, hardware and software requirements, methodology, working principle, circuit diagram, PCB layout, implementation details, results, future scope, and references.
+
+📄 **Project Report:**
+- [Real-Time Occupancy Detection System Report](project_report.pdf)
+
+---
+
 ## Applications
 
 - Smart homes
