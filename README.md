@@ -36,8 +36,8 @@ In homes, offices, classrooms, and other indoor environments, electrical applian
 ## Software Requirements
 
 - Arduino IDE
-- Arduino C/C++
-- Tinkercad *(for circuit simulation)*
+- Arduino C++
+- Cirkit Designer
 
 ---
 
