@@ -78,11 +78,11 @@ The following images show the hardware implementation of the proposed Real-Time 
 
 ### Hardware Prototype – Front View
 
-![Hardware Prototype - Front View](images/hardware_prototype_1.jpeg)
+![Hardware Prototype - Front View](images/hardware_prototype1.jpeg)
 
 ### Hardware Prototype – Angled View
 
-![Hardware Prototype - Angled View](images/hardware_prototype_2.jpeg)
+![Hardware Prototype - Angled View](images/hardware_prototype2.jpeg)
 
 ---
 
