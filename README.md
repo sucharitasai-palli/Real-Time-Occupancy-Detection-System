@@ -114,6 +114,14 @@ The program reads input from the Entry and Exit IR sensors, maintains the real-t
 
 ---
 
+## PCB Layout
+
+A simple PCB layout was designed in EasyEDA to represent the hardware connections between the Arduino Uno, IR sensors, and the relay module. The PCB layout provides a compact representation of the prototype connections and was created to generate the Gerber files for PCB fabrication.
+
+![PCB Layout](images/pcb_layout.png)
+
+---
+
 ## Applications
 
 - Smart homes
