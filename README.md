@@ -110,7 +110,7 @@ The complete Arduino source code for this project is available in the repository
 
 - `Occupancy_Detection.ino`
 
-The program reads data from the two IR sensors, determines the direction of movement, updates the occupancy count, and controls the relay module accordingly.
+The program reads input from the Entry and Exit IR sensors, maintains the real-time occupancy count, controls the 8-channel relay module based on the occupancy count, and displays occupancy information on the Arduino Serial Monitor.
 
 ---
 
