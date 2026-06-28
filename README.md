@@ -96,7 +96,9 @@ The circuit diagram below shows the hardware connections between the Arduino Uno
 
 ## Circuit Simulation
 
-The circuit was simulated using Tinkercad to verify the hardware connections and system functionality before physical implementation.
+The circuit was simulated using **Cirkit Designer** to verify the hardware connections and system functionality before physical implementation.
+
+**Simulation:** [View Circuit Simulation](https://app.cirkitdesigner.com/project/926a4628-ceb8-4e68-9d71-fafaaf0cb161)
 
 ![Circuit Simulation](images/simulation.png)
 
