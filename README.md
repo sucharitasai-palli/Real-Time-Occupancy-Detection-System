@@ -90,7 +90,7 @@ The following images show the hardware implementation of the proposed Real-Time 
 
 The circuit diagram below shows the hardware connections between the Arduino Uno, IR sensors, relay module, and supporting components.
 
-![Circuit Diagram](images/circuit_diagram.png)
+![Circuit Diagram](images/circuit_diagram.jpeg)
 
 ---
 
